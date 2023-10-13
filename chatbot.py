@@ -69,4 +69,4 @@ def ask_bot(query, input_index_dir='./storage'):
     return response
 
 # construct_index('knowledge/')
-# ask_bot('What is the percentage of lakes?')
+ask_bot('How can an oil spill occur in a water tank?')

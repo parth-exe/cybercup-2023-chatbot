@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from chatbot import ask_bot  # Import your chatbot logic here
+from chatbot import ask_bot  
 
 app = Flask(__name__)
 CORS(app)
